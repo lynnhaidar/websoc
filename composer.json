@@ -1,0 +1,23 @@
+{
+    "name": "lynnhaidar/websoc",
+    "description": "Laravel package for WebSocket connections",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lynnhaidar\\Websoc\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Lynn Haidar",
+            "email": "lynnhaidarrr@gmail.com"
+        }
+    ],
+
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "cboden/ratchet": "^0.4.0"
+    }
+}
